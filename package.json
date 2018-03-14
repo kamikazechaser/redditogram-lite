@@ -1,0 +1,27 @@
+{
+  "name": "redditogram-lite",
+  "version": "1.0.0",
+  "description": "A Reddit (posts) ➡️ Telegram bridge",
+  "main": "redditogram.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamikazechaser/redditogram-lite.git"
+  },
+  "keywords": [
+    "reddit",
+    "telegram"
+  ],
+  "author": "Mohammed Sohail <sohailsameja@gmail.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kamikazechaser/redditogram-lite/issues"
+  },
+  "homepage": "https://github.com/kamikazechaser/redditogram-lite#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-telegram-bot-api": "^0.27.1",
+    "reddit-stream": "^1.2.0",
+    "request-promise": "^4.2.1",
+    "tiny-emitter": "^2.0.1"
+  }
+}
